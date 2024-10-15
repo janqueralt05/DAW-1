@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario de Registro</h1>
+    
+    <form action="#" method="post">
+        <!-- Campo de texto para ingresar el nombre -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br><br>
+
+        <!-- Campo para ingresar el correo electrónico -->
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <!-- Campo para seleccionar el género -->
+        <label>Género:</label>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label>
+        
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <label for="femenino">Femenino</label>
+        
+        <input type="radio" id="otro" name="genero" value="otro">
+        <label for="otro">Otro</label>
+        <br><br>
+
+        <!-- Campo de selección desplegable -->
+        <label for="pais">Selecciona tu país:</label>
+        <select id="pais" name="pais">
+            <option value="mexico">México</option>
+            <option value="espana">España</option>
+            <option value="argentina">Argentina</option>
+        </select>
+        <br><br>
+
+        <!-- Botón de envío -->
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>
